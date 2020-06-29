@@ -1,63 +1,137 @@
 body {
   background-color: black;
+  padding: 0 60px 0 60px;
 }
 h1 {
-  color: aliceblue;
+  color: white;
   text-align: center;
   font-size: 50px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-weight: normal;
 }
-.disco {
+.quote {
   font-style: italic;
-  color: aliceblue;
+  color: white;
   text-align: center;
   font-size: 30px;
+  margin-bottom: 30px;
 }
 .comet {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
 }
 
 h2 {
-  color: aliceblue;
+  color: white;
   text-align: center;
-  font-size: 40px;
+  font-size: 35px;
+  margin-top: 0px;
+  font-weight: normal;
+  margin-bottom: 10px;
 }
 
 h3 {
-  color: aliceblue;
+  color: white;
   text-align: center;
-  font-size: 30px;
+  font-size: 27px;
   font-style: italic;
+  margin-top: 10px;
+  font-weight: normal;
 }
 
 div {
-  color: aliceblue;
+  color: white;
+}
+
+.lorem {
+  height: 100px;
+  font-size: 18px
 }
 
 .flex-container {
-  display: flex;
-  flex-direction: row;
+  display: inline-flex;
+  margin-bottom: 20px;
 }
 
 .chad {
-  height: 200px;
+ width: 35%;
+ padding-left: 10px;  
 }
 
 .button-design {
   background-color: yellow;
   border-bottom: 1px solid yellow;
-  position: absolute;
   width: 100%;
-  height: 150px;
+  height: 105px;
 }
 
 p {
-  color: aliceblue;
-  font-size: 30px;
-  padding-top: 50px;
+  color: white;
+  font-size: 20px;
+  padding-top: 10px;
 }
+
+.button-head {
+  display: flex;
+  color: black;
+  justify-content: center;
+  font-size: 35px;
+}
+
+.donate {
+  color: white;
+  background-color: black;
+  font-size: 19px;
+  font-weight: lighter;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 1px;
+  height: 30%;
+  margin-top: 5px;
+  border-radius: 8px;
+}
+
+.bottom-subtext {
+  color: black;
+  text-align: end;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.awesome-content {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.cat-index {
+  display: inline-flex;
+  justify-content: space-between;
+  padding-bottom: 0px;
+  width: 100%;
+}
+.bottom-page {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 0;
+  font-size: 23px;
+}
+.money-foot {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 20px;
+  height: 50%;
+  align-items: center;
+  font-size: 20px;
+}
+
 
 
 
