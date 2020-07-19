@@ -1,0 +1,46 @@
+body {
+  background-color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.title-head {
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  font-style: oblique;
+}
+.inline-flex {
+  display: inline-flex;
+}
+
+.additional-info {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 0;
+}
+
+.bullet-points {
+  color: white;
+  font-size: 25px;
+}
+
+.LaGreek {
+  height: 50%;
+  width: 50%; 
+}
+
+p {
+  color: chocolate;
+  font-size: 20px;
+  font-style: oblique;
+}
+
+
+
+
+
